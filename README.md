@@ -22,7 +22,7 @@ for backwards compatibility with anything still linking there directly.)
 
 1. Build (or otherwise obtain) a `.tar.xz` (preferred; `.tar.gz`/`.tar.zst`/`.tar.bz2` also work)
    root filesystem archive for a Linux guest architecture iSH-AOK supports:
-   `i386`, `amd64` (x86_64), `arm64` (aarch64), or `riscv64`.
+   `i386`, `amd64` (x86_64), `arm64` (aarch64), `riscv64`, or `ppc64` (ppc64le).
 2. Either open a PR adding your archive under `archives/` directly (keep it
    under 100 MB — GitHub's hard per-file limit for a plain `git push`), or
    host it yourself somewhere stable and directly downloadable over HTTPS
@@ -50,6 +50,7 @@ A JSON array of objects. All fields are required strings unless noted.
 | `importName` | Becomes the on-device root directory name and mount "source" string. Must match iSH-AOK's `RootNameIsValid` rules: letters, digits, `.`, `-`, `_` only, no spaces, can't start with `.`. |
 | `initialWindow` | Currently always `"session-shell"`. |
 | `guestABI` | One of `i386`, `amd64`, `arm64`, `riscv64` — must match the archive's actual userland architecture. |
+| `guestArch` | In place of `guestABI`, for an architecture added after iSH-AOK build 561: `ppc64` (64-bit little-endian PowerPC). Builds before the one that runs it require `guestABI`, so they skip the entry instead of offering a root they cannot boot; 562 and later read either key, and skip any architecture they were built without. |
 | `downloadURL` | Direct HTTPS URL to the `.tar.*` archive. Must return the file directly (no HTML interstitial). |
 | `downloadSize` | Human-readable approximate download size, e.g. `"~32 MB"`. Shown to the user before they download. |
 | `family` | Groups architecture variants of the same distro/release into one picker row (e.g. all three Alpine 3.23.3 entries share `"alpine3233"`). Use a new family value per distro *and* per release/version you want listed separately. |
