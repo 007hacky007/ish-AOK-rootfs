@@ -135,7 +135,7 @@
     "archiveName": "alpine-minirootfs-3.24.2-ppc64le",
     "importName": "Alpine3.24.2-ppc64le",
     "initialWindow": "session-shell",
-    "guestABI": "ppc64",
+    "guestArch": "ppc64",
     "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-ppc64le.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",

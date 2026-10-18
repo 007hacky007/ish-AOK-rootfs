@@ -49,7 +49,8 @@ A JSON array of objects. All fields are required strings unless noted.
 | `archiveName` | Base filename (no extension) the downloaded archive is renamed to on-device. Should be unique per identifier. |
 | `importName` | Becomes the on-device root directory name and mount "source" string. Must match iSH-AOK's `RootNameIsValid` rules: letters, digits, `.`, `-`, `_` only, no spaces, can't start with `.`. |
 | `initialWindow` | Currently always `"session-shell"`. |
-| `guestABI` | One of `i386`, `amd64`, `arm64`, `riscv64`, `ppc64` (64-bit little-endian PowerPC) — must match the archive's actual userland architecture. |
+| `guestABI` | One of `i386`, `amd64`, `arm64`, `riscv64` — must match the archive's actual userland architecture. |
+| `guestArch` | In place of `guestABI`, for an architecture added after iSH-AOK build 561: `ppc64` (64-bit little-endian PowerPC). Builds before the one that runs it require `guestABI`, so they skip the entry instead of offering a root they cannot boot; 562 and later read either key, and skip any architecture they were built without. |
 | `downloadURL` | Direct HTTPS URL to the `.tar.*` archive. Must return the file directly (no HTML interstitial). |
 | `downloadSize` | Human-readable approximate download size, e.g. `"~32 MB"`. Shown to the user before they download. |
 | `family` | Groups architecture variants of the same distro/release into one picker row (e.g. all three Alpine 3.23.3 entries share `"alpine3233"`). Use a new family value per distro *and* per release/version you want listed separately. |
