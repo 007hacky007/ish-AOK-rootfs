@@ -3,9 +3,12 @@
 **This is a fork** of [emkey1/ish-AOK-rootfs](https://github.com/emkey1/ish-AOK-rootfs),
 trimmed to images that have been checked against their distribution's own
 packages, for a fork of iSH-AOK that requires a `sha256` for every entry. That
-app fetches this repo's `manifest.json` and downloads only archives under
+app never fetches this `manifest.json` over the network: it compiles in the copy
+at the commit its `deps/rootfs-manifest` submodule pins, so an entry and its
+hash cannot change after the build. It downloads only archives under
 `https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/`,
-and refuses one whose checksum does not match. What is here:
+and refuses one whose checksum does not match. Removing or renaming an archive
+here breaks installs on builds that still list it. What is here:
 
 - **Alpine** minirootfs archives: the official releases, recompressed from
   `.tar.gz` to `.tar.xz`. The uncompressed tar is byte-identical to Alpine's
