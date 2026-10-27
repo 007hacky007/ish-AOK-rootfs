@@ -1,5 +1,24 @@
 # ish-AOK-rootfs
 
+**This is a fork** of [emkey1/ish-AOK-rootfs](https://github.com/emkey1/ish-AOK-rootfs),
+trimmed to images that have been checked against their distribution's own
+packages, for a fork of iSH-AOK that requires a `sha256` for every entry. That
+app fetches this repo's `manifest.json` and downloads only archives under
+`https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/`,
+and refuses one whose checksum does not match. What is here:
+
+- **Alpine** minirootfs archives: the official releases, recompressed from
+  `.tar.gz` to `.tar.xz`. The uncompressed tar is byte-identical to Alpine's
+  own, whose `.tar.gz` matches Alpine's published `.sha256`.
+- **Devuan 6** images built by `tools/build-devuan-minirootfs.sh` in iSH-AOK.
+  Every file a package owns matches that package's official `.deb` from
+  `pkgmaster.devuan.org`; the rest is what that script writes.
+
+Removed from upstream's list: the PSCAL + SmallCLUE images (the upstream
+author's own builds, with no distribution to check them against), the Arch
+Linux images, and `aok-vm/` (the sibling AOK VM app's machine list, which
+this app does not read).
+
 Manifest of downloadable root filesystems offered by [iSH-AOK](https://github.com/emkey1/ish-AOK)'s
 "New Filesystem" picker. This repo is a git submodule of iSH-AOK
 (`deps/rootfs-manifest`); the app bundles `manifest.json` at build time and
@@ -53,6 +72,7 @@ A JSON array of objects. All fields are required strings unless noted.
 | `guestArch` | In place of `guestABI`, for an architecture added after iSH-AOK build 561: `ppc64` (64-bit little-endian PowerPC). Builds before the one that runs it require `guestABI`, so they skip the entry instead of offering a root they cannot boot; 562 and later read either key, and skip any architecture they were built without. |
 | `downloadURL` | Direct HTTPS URL to the `.tar.*` archive. Must return the file directly (no HTML interstitial). |
 | `downloadSize` | Human-readable approximate download size, e.g. `"~32 MB"`. Shown to the user before they download. |
+| `sha256` | Lowercase hex SHA-256 of the archive file exactly as `downloadURL` serves it (`shasum -a 256 archives/<file>`). The download is checked against it before anything is unpacked; an entry without one is skipped. |
 | `family` | Groups architecture variants of the same distro/release into one picker row (e.g. all three Alpine 3.23.3 entries share `"alpine3233"`). Use a new family value per distro *and* per release/version you want listed separately. |
 | `familyDisplayName` | Shown for the grouped row; architecture is chosen as a sub-choice. |
 | `tier` | `"official"` or `"community"`. New PRs should use `"community"`. |

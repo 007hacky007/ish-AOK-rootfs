@@ -6,11 +6,12 @@
     "importName": "Alpine3.23.3",
     "initialWindow": "session-shell",
     "guestABI": "i386",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-x86.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-x86.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3233",
     "familyDisplayName": "Alpine 3.23.3",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "4c831760783d6de70bf0c5326f2c7977ab4643b0d7df1da7af458f1f9d122ea8"
   },
   {
     "identifier": "alpine3233x8664",
@@ -19,11 +20,12 @@
     "importName": "Alpine3.23.3-x86_64",
     "initialWindow": "session-shell",
     "guestABI": "amd64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-x86_64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-x86_64.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3233",
     "familyDisplayName": "Alpine 3.23.3",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "6304f509a70e7a1542e3309085aaadd3d4e30c8167e7ae0ea7f5f1d8f69ecec5"
   },
   {
     "identifier": "alpine3233riscv64",
@@ -32,11 +34,12 @@
     "importName": "Alpine3.23.3-riscv64",
     "initialWindow": "session-shell",
     "guestABI": "riscv64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-riscv64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.23.3-riscv64.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3233",
     "familyDisplayName": "Alpine 3.23.3",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "9e961c28a5652cd4511de6dfb9577f9ba704c8613dc55cdb358c20c8d326d2de"
   },
   {
     "identifier": "devuan6x86",
@@ -45,11 +48,12 @@
     "importName": "Devuan6",
     "initialWindow": "session-shell",
     "guestABI": "i386",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86.tar.xz",
     "downloadSize": "~33 MB",
     "family": "devuan6",
     "familyDisplayName": "Devuan 6 (excalibur)",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "08cd9d8447a50cd30289d20d62b297ddf481f3fcc5d12461549bbc6a301ace68"
   },
   {
     "identifier": "devuan6x8664",
@@ -58,11 +62,12 @@
     "importName": "Devuan6-x86_64",
     "initialWindow": "session-shell",
     "guestABI": "amd64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86_64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-x86_64.tar.xz",
     "downloadSize": "~32 MB",
     "family": "devuan6",
     "familyDisplayName": "Devuan 6 (excalibur)",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "5faec8bb379e12c755317c506758747f6e7e06c23f404b8061f14176df312ef0"
   },
   {
     "identifier": "devuan6riscv64",
@@ -71,11 +76,12 @@
     "importName": "Devuan6-riscv64",
     "initialWindow": "session-shell",
     "guestABI": "riscv64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-riscv64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/devuan-minirootfs-6.0-riscv64.tar.xz",
     "downloadSize": "~31 MB",
     "family": "devuan6",
     "familyDisplayName": "Devuan 6 (excalibur)",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "9f98534819f2a02ba5a9c8f2d6c203e97e03067904909a4c52f53ffea4f967dd"
   },
   {
     "identifier": "alpine3242",
@@ -84,11 +90,12 @@
     "importName": "Alpine3.24.2",
     "initialWindow": "session-shell",
     "guestABI": "i386",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "12838278da022ac7a8b089b324200288a721504a940b9999282ef8a53ec82ebe"
   },
   {
     "identifier": "alpine3242x8664",
@@ -97,11 +104,12 @@
     "importName": "Alpine3.24.2-x86_64",
     "initialWindow": "session-shell",
     "guestABI": "amd64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86_64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-x86_64.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "dd874619ce37c65b77fc9e999af364f8d887c2cb0e8ef24cf195674c6e34c835"
   },
   {
     "identifier": "alpine3242aarch64",
@@ -110,11 +118,12 @@
     "importName": "Alpine3.24.2-aarch64",
     "initialWindow": "session-shell",
     "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-aarch64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-aarch64.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "0fd47aa1e7b7fa022f47f55f745ce0907476e1139fdd64055fc22f5af5d63913"
   },
   {
     "identifier": "alpine3242riscv64",
@@ -123,11 +132,12 @@
     "importName": "Alpine3.24.2-riscv64",
     "initialWindow": "session-shell",
     "guestABI": "riscv64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-riscv64.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-riscv64.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "official"
+    "tier": "official",
+    "sha256": "ec158166c0b0c218451714b30b733ed21d570f2185cac6649fc780ffb2e0e209"
   },
   {
     "identifier": "alpine3242ppc64le",
@@ -136,126 +146,11 @@
     "importName": "Alpine3.24.2-ppc64le",
     "initialWindow": "session-shell",
     "guestArch": "ppc64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-ppc64le.tar.xz",
+    "downloadURL": "https://raw.githubusercontent.com/007hacky007/ish-AOK-rootfs/main/archives/alpine-minirootfs-3.24.2-ppc64le.tar.xz",
     "downloadSize": "~3 MB",
     "family": "alpine3242",
     "familyDisplayName": "Alpine 3.24.2",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscal2026091912aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19.12 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19.12-aarch64",
-    "importName": "PSCAL-2026.09.19.12-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.12-aarch64.tar.xz",
-    "downloadSize": "~11 MB",
-    "family": "pscal2026091912",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.12",
-    "series": "pscal",
-    "version": "2026.09.19.12",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscal2026091907aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19.7 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19.7-aarch64",
-    "importName": "PSCAL-2026.09.19.7-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.7-aarch64.tar.xz",
-    "downloadSize": "~11 MB",
-    "family": "pscal2026091907",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.7",
-    "series": "pscal",
-    "version": "2026.09.19.7",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscal2026091905aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19.5 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19.5-aarch64",
-    "importName": "PSCAL-2026.09.19.5-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.5-aarch64.tar.xz",
-    "downloadSize": "~11 MB",
-    "family": "pscal2026091905",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.5",
-    "series": "pscal",
-    "version": "2026.09.19.5",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscal2026091902aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19.2 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19.2-aarch64",
-    "importName": "PSCAL-2026.09.19.2-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.2-aarch64.tar.xz",
-    "downloadSize": "~11 MB",
-    "family": "pscal2026091902",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.2",
-    "series": "pscal",
-    "version": "2026.09.19.2",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscal2026091901aarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.09.19.1 (arm64)",
-    "archiveName": "pscal-rootfs-2026.09.19.1-aarch64",
-    "importName": "PSCAL-2026.09.19.1-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-rootfs-2026.09.19.1-aarch64.tar.xz",
-    "downloadSize": "~10 MB",
-    "family": "pscal2026091901",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.09.19.1",
-    "series": "pscal",
-    "version": "2026.09.19.1",
-    "tier": "community"
-  },
-  {
-    "identifier": "pscalaarch64",
-    "displayName": "PSCAL + SmallCLUE 2026.07.24 (arm64)",
-    "archiveName": "pscal-pure-aarch64-rootfs",
-    "importName": "PSCAL-arm64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/pscal-pure-aarch64-rootfs.tar.xz",
-    "downloadSize": "~7 MB",
-    "family": "pscal20260724",
-    "familyDisplayName": "PSCAL + SmallCLUE 2026.07.24",
     "tier": "community",
-    "series": "pscal",
-    "version": "2026.07.24"
-  },
-  {
-    "identifier": "archlinux20240401x8664",
-    "displayName": "Arch Linux (2024.04.01, x86_64) (Experimental)",
-    "archiveName": "archlinux-minirootfs-2024.04.01-x86_64",
-    "importName": "ArchLinux-x86_64",
-    "initialWindow": "session-shell",
-    "guestABI": "amd64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/archlinux-minirootfs-2024.04.01-x86_64.tar.xz",
-    "downloadSize": "~62 MB",
-    "family": "archlinux",
-    "familyDisplayName": "Arch Linux (Experimental)",
-    "tier": "community"
-  },
-  {
-    "identifier": "archlinuxarmaarch64",
-    "displayName": "Arch Linux ARM (aarch64) (Experimental)",
-    "archiveName": "archlinuxarm-minirootfs-latest-aarch64",
-    "importName": "ArchLinuxARM-aarch64",
-    "initialWindow": "session-shell",
-    "guestABI": "arm64",
-    "downloadURL": "https://raw.githubusercontent.com/emkey1/ish-AOK-rootfs/main/archives/archlinuxarm-minirootfs-latest-aarch64.tar.xz",
-    "downloadSize": "~74 MB",
-    "family": "archlinux",
-    "familyDisplayName": "Arch Linux (Experimental)",
-    "tier": "community"
+    "sha256": "a4159a2084991ca63141b422029d58f3d8b3394ff4633910cddab6600bcb3476"
   }
 ]
